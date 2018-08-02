@@ -41,41 +41,73 @@
 
 
 </nav>
+<!-- parent container -->
+<div class="container-fluid">
 
-<!-- heading and Sign in form -->
+    <!-- login row -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        </div>
+        <!-- login column -->
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <!-- heading and Sign in form -->
 
-<h1>Sign Into Moove</h1>
-<form action="submit ">
-    <label for="loginEmail ">Email</label>
-    <input type="email " placeholder="james@ms.com ">
+            <h1>Sign Into Moove</h1>
+            <form action="submit ">
+                <div class="form-group">
+                    <label for="loginEmail ">Email</label>
+                    <input type="email " placeholder="james@ms.com " class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword ">Password</label>
+                    <input type="password " class="form-control">
 
-    <label for="loginPassword ">Password</label>
-    <input type="password ">
+                </div>
 
-    <button type="submit ">Sign In</button>
-</form>
+                <button type="submit " class="btn btn-default">Sign In</button>
+            </form>
 
-<p id="goToSignUp ">Don't have an account? Sign Up here.</p>
-<!-- heading and Sign up form -->
+            <p id="goToSignUp ">Don't have an account? Sign Up here.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        </div>
+    </div>
+    <!-- sign up row -->
+    <div class="row">
+        <!-- heading and Sign up form -->
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
 
-<h1>Join the Moove-ment</h1>
+        <!-- sign up column -->
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h1>Join the Moove-ment</h1>
 
-<form action="submit ">
-    <label for="loginEmail ">FirstName</label>
-    <input type="firstName " placeholder="James Muriuki ">
+            <form action="submit ">
+                <div class="form-group">
+                    <label for="loginEmail ">FirstName</label>
+                    <input type="firstName " placeholder="James Muriuki " class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loginEmail ">Email</label>
+                    <input type="email " placeholder="james@ms.com " class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword ">Password</label>
+                    <input type="password " class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword ">Password Confirm</label>
+                    <input type="password " class="form-control">
+                </div>
+                <button type="submit " class="btn btn-default">Sign Up</button>
+            </form>
+            <p id="goToSignIn ">Have an account? Sign in here.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
 
-    <label for="loginEmail ">Email</label>
-    <input type="email " placeholder="james@ms.com ">
+    </div>
 
-    <label for="loginPassword ">Password</label>
-    <input type="password ">
 
-    <label for="loginPassword ">Password Confirm</label>
-    <input type="password ">
-
-    <button type="submit ">Sign Up</button>
-</form>
-<p id="goToSignIn ">Have an account? Sign in here.</p>
+</div>
 
 
 <!-- javascript files -->
