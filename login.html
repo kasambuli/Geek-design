@@ -5,18 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Geek-Design</title>
 </head>
 
 <!-- navbar -->
 
-<nav>
-    <a href="#">Moove</a>
-    <ul>
-        <li><a href="#">Movie Shows</a></li>
-        <li><a href="#">Tv Shows</a></li>
-        <li><a href="#">Login</a></li>
-    </ul>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Moove</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Movie Shows</a>
+                </li>
+                <li>
+                    <a href="#">Tv Shows</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
 </nav>
@@ -24,37 +45,43 @@
 <!-- heading and Sign in form -->
 
 <h1>Sign Into Moove</h1>
-<form action="submit">
-    <label for="loginEmail">Email</label>
-    <input type="email" placeholder="james@ms.com">
+<form action="submit ">
+    <label for="loginEmail ">Email</label>
+    <input type="email " placeholder="james@ms.com ">
 
-    <label for="loginPassword">Password</label>
-    <input type="password">
+    <label for="loginPassword ">Password</label>
+    <input type="password ">
 
-    <button type="submit">Sign In</button>
+    <button type="submit ">Sign In</button>
 </form>
 
-<p id="goToSignUp">Don't have an account? Sign Up here.</p>
+<p id="goToSignUp ">Don't have an account? Sign Up here.</p>
 <!-- heading and Sign up form -->
 
 <h1>Join the Moove-ment</h1>
 
-<form action="submit">
-    <label for="loginEmail">FirstName</label>
-    <input type="firstName" placeholder="James Muriuki">
+<form action="submit ">
+    <label for="loginEmail ">FirstName</label>
+    <input type="firstName " placeholder="James Muriuki ">
 
-    <label for="loginEmail">Email</label>
-    <input type="email" placeholder="james@ms.com">
+    <label for="loginEmail ">Email</label>
+    <input type="email " placeholder="james@ms.com ">
 
-    <label for="loginPassword">Password</label>
-    <input type="password">
+    <label for="loginPassword ">Password</label>
+    <input type="password ">
 
-    <label for="loginPassword">Password Confirm</label>
-    <input type="password">
+    <label for="loginPassword ">Password Confirm</label>
+    <input type="password ">
 
-    <button type="submit">Sign Up</button>
+    <button type="submit ">Sign Up</button>
 </form>
-<p id="goToSignIn">Have an account? Sign in here.</p>
+<p id="goToSignIn ">Have an account? Sign in here.</p>
+
+
+<!-- javascript files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <body>
 
